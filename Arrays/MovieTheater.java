@@ -25,6 +25,7 @@ public class MovieTheater {
             System.out.println("Seat reserved successfully.");
         }
     }
+    
 
     // display the seating chart
     public void displaySeatingChart() {
