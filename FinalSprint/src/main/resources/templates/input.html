@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+    <h1>Create a Binary Search Tree</h1>
+    <form action="/processed" method="post">
+        <label for="numbers">Enter comma-separated numbers:</label>
+        <input type="text" id="numbers" name="numbers" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="/previous" method="get">
+        <button type="submit">Previous Trees</button>
+    </form>
+</body>
+</html>
